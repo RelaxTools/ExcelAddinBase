@@ -17,3 +17,6 @@ customUi.xml はレイアウト専用。
 ボタンとマクロを紐付けるにはIDと同じマクロ名を作成する。
 ![Module](https://github.com/RelaxTools/ExcelAddinBase/blob/master/media/Module.png)
 
+バージョン情報やメッセージボックスのタイトルはファイルのプロパティで変更
+![Module](https://github.com/RelaxTools/ExcelAddinBase/blob/master/media/version.png)
+
