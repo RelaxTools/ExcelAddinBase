@@ -5,6 +5,7 @@ Excel Addin Platform
 Excel アドイン作成ベースです。ご自由にどうぞ。
 
 ◇使用方法
+
 customUi.xml はレイアウト専用。
 ![customUI](https://github.com/RelaxTools/ExcelAddinBase/blob/master/media/customUi.png)
 
