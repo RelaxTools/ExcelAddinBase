@@ -1,19 +1,19 @@
-# ExcelAddinBase
-Excel 2010/2013/2016 Ribbon�Ή���
+# Excel Addin Base
+Excel 2010/2013/2016 Ribbon対応版
 Excel Addin Platform
 -------------------------------------------
-Excel �A�h�C���쐬�x�[�X�ł��B�����R�ɂǂ����B
+Excel アドイン作成ベースです。ご自由にどうぞ。
 
-���g�p���@
-customUi.xml �̓��C�A�E�g��p�B
+◇使用方法
+customUi.xml はレイアウト専用。
 ![customUI](https://github.com/RelaxTools/ExcelAddinBase/blob/master/media/customUi.png)
 
-���j���[�̕������A�C�R����ύX����ꍇ�AThisWorkbook�̃v���p�e�BIsAddin=False�ɂ���B
+メニューの文字列やアイコンを変更する場合、ThisWorkbookのプロパティIsAddin=Falseにする。
 ![IsAddin](https://github.com/RelaxTools/ExcelAddinBase/blob/master/media/IsAddin.png)
 
-���̃V�[�g���\�������̂ŕύX����BIsAddin=True�ɂ��ĕۑ�����B
+中のシートが表示されるので変更する。IsAddin=Trueにして保存する。
 ![Sheet](https://github.com/RelaxTools/ExcelAddinBase/blob/master/media/Sheet.png)
 
-�{�^���ƃ}�N����R�t����ɂ�ID�Ɠ����}�N�������쐬����B
+ボタンとマクロを紐付けるにはIDと同じマクロ名を作成する。
 ![Module](https://github.com/RelaxTools/ExcelAddinBase/blob/master/media/Module.png)
 
