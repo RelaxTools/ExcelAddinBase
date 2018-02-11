@@ -1,12 +1,12 @@
-﻿<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="RelaxToolsLight.xlam!basRibbon.ribbonLoadedSub">
+﻿<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="ExcelAddinBase.xlam!basRibbon.ribbonLoadedSub">
   <ribbon startFromScratch="false">
     <tabs>
-      <tab id="tabAddin" getLabel="RelaxToolsLight.xlam!basRibbon.getLabelSub">
-        <group id="grpDefault"                                     getImage="RelaxToolsLight.xlam!basRibbon.getImageSub" getLabel="RelaxToolsLight.xlam!basRibbon.getLabelSub" >
-            <button id="btnHelloWorld"                size="large" getImage="RelaxToolsLight.xlam!basRibbon.getImageSub" getLabel="RelaxToolsLight.xlam!basRibbon.getLabelSub" getSupertip="RelaxToolsLight.xlam!basRibbon.getSupertipSub" onAction="RelaxToolsLight.xlam!basRibbon.OnActionSub" />
+      <tab id="tabAddin" getLabel="ExcelAddinBase.xlam!basRibbon.getLabelSub">
+        <group id="grpDefault"                                     getImage="ExcelAddinBase.xlam!basRibbon.getImageSub" getLabel="ExcelAddinBase.xlam!basRibbon.getLabelSub" >
+            <button id="btnHelloWorld"                size="large" getImage="ExcelAddinBase.xlam!basRibbon.getImageSub" getLabel="ExcelAddinBase.xlam!basRibbon.getLabelSub" getSupertip="ExcelAddinBase.xlam!basRibbon.getSupertipSub" onAction="ExcelAddinBase.xlam!basRibbon.OnActionSub" />
         </group>
-        <group id="grpVersion"                                     getLabel="RelaxToolsLight.xlam!basRibbon.getLabelSub" getImage="RelaxToolsLight.xlam!basRibbon.getImageSub" >
-            <button id="btnVersion"                   size="large" image="logo" getLabel="RelaxToolsLight.xlam!basRibbon.getLabelSub" getSupertip="RelaxToolsLight.xlam!basRibbon.getSupertipSub" onAction="RelaxToolsLight.xlam!basRibbon.OnActionSub" />
+        <group id="grpVersion"                                     getLabel="ExcelAddinBase.xlam!basRibbon.getLabelSub" getImage="ExcelAddinBase.xlam!basRibbon.getImageSub" >
+            <button id="btnVersion"                   size="large" image="logo" getLabel="ExcelAddinBase.xlam!basRibbon.getLabelSub" getSupertip="ExcelAddinBase.xlam!basRibbon.getSupertipSub" onAction="ExcelAddinBase.xlam!basRibbon.OnActionSub" />
         </group>
       </tab>
     </tabs>
